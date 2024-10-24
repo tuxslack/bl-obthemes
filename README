@@ -1,45 +1,49 @@
+1.552 / 5.000
 bunsen-blob
 ===========
 
-BLOB is a BunsenLabs GUI Themes Manager
-to save or restore various GUI theme settings.
+BLOB é um BunsenLabs GUI Themes Manager
+para salvar ou restaurar várias configurações de tema de GUI.
 
-The command to run is bl-obthemes
+O comando a ser executado é bl-obthemes
 
-Save options are for:
-		Openbox theme
-		GTK theme
-		Icon theme
-		Conky(s)
-		Tint2(s)
-		Background (using nitrogen, feh, xfdesktop or pcmanfm)
-		Alt Menu (dmenu)
-		Lightdm login gtk greeter
-		X configs (.bashrc, .Xresources)
-		Terminal emulator config (if available)
-		Compositor (if available)
-		Jgmenu theming (if available)
+As opções de salvamento são para:
+Tema Openbox
+Tema GTK
+Tema de ícones
+Conky(s)
+Tint2(s)
+Plank
+Plano de fundo (usando nitrogen, feh, xfdesktop ou pcmanfm)
+Menu Alt (dmenu)
+Login Lightdm gtk greeter
+Configurações X (.bashrc, .Xresources)
+Configuração do emulador de terminal (se disponível)
+Compositor (se disponível)
+Temas Jgmenu (se disponível)
 
-Paths are assumed to be BunsenLabs defaults.
+Os caminhos são assumidos como padrões do BunsenLabs.
 
-A Screenshot is saved (Windows are hidden briefly so the image
-                       is the bare desktop, with any Tint2s
-                       or Conkys which are running, and a representive
-                       menu and lxappearance open)
+Uma captura de tela é salva (o Windows fica oculto brevemente para que a imagem
+seja a área de trabalho vazia, com qualquer Tint2s
+ou Conkys em execução e um menu representativo
+e lxappearance abertos)
 
-User saved themes are stored in ~/.config/blob.
-Some system preset themes are stored in /usr/share/bunsen/utilities/blob.
-The contents of that directory will be displayed to the user
-along with any that might be in ~/.config/blob.
-If a user and preset theme have identical names,
-the system preset will be hidden.
+Os temas salvos pelo usuário são armazenados em ~/.config/blob.
+Alguns temas predefinidos do sistema são armazenados em /usr/share/bunsen/utilities/blob.
+O conteúdo desse diretório será exibido ao usuário
+junto com qualquer um que possa estar em ~/.config/blob.
+Se um usuário e um tema predefinido tiverem nomes idênticos,
+a predefinição do sistema será ocultada.
 
 ****************************************************************************
-KNOWN ISSUES:
-Virtualbox does not let the guest move the host mouse cursor with xdotool,
-so the screenshot may display the theme incorrectly or with poor positioning.
-A workaround is to move the cursor to some free space,
-and use the "Enter" key in the "Configurations to be saved:" dialog.
+PROBLEMAS CONHECIDOS:
+O Virtualbox não permite que o convidado mova o cursor do mouse do host com o xdotool,
+então a captura de tela pode exibir o tema incorretamente ou com posicionamento ruim.
+Uma solução alternativa é mover o cursor para algum espaço livre
+e usar a tecla "Enter" na caixa de diálogo "Configurações a serem salvas:".
 
-Conkys in non-default directories can be saved,
-but might not be seen when running bl-conky-manager.
+Conkys em diretórios não padrão podem ser salvos,
+mas podem não ser vistos ao executar bl-conky-manager.
+Enviar feedback
+Resultados de tradução disponíveis
