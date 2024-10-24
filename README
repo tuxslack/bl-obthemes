@@ -2,13 +2,16 @@
 Um fork do projeto https://github.com/BunsenLabs/bunsen-blob traduzido participalmente para português do Brasil.
 
 
+Obs: Não esta restaurando as configurações do obmenu-generator.
+
+
 bunsen-blob
 ===========
 
 BLOB é um BunsenLabs GUI Themes Manager
 para salvar ou restaurar várias configurações de tema de GUI.
 
-O comando a ser executado é bl-obthemes ou obthemes.sh
+O comando a ser executado é obthemes.sh
 
 As opções de salvamento são para:
 Tema Openbox
