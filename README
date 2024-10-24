@@ -8,7 +8,7 @@ bunsen-blob
 BLOB é um BunsenLabs GUI Themes Manager
 para salvar ou restaurar várias configurações de tema de GUI.
 
-O comando a ser executado é bl-obthemes
+O comando a ser executado é bl-obthemes ou obthemes.sh
 
 As opções de salvamento são para:
 Tema Openbox
